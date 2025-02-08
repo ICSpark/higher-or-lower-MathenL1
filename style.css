@@ -9,20 +9,26 @@ h1 {
     /*make sure to center this!*/
     font-weight: 700;
     font-size: 50px;
+    text-align: center;
 }
 
 p {
   /*make sure to center this!*/
     font-size: 30px;
     font-weight: bold;
+    text-align: center;
 }
 
 /*
 Use Flexbox to center everything in .center
     
  */
+ 
 
 .center {
 /*make sure to center this!*/
     height: 50px;
+    display: flex;
+    justify-content: center;
 }
+
